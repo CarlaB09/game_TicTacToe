@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/game.css">
+  <script src="js/tictactoe.js" defer></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+
+<!--menu with nav-->
+
+  <div class="name">
+    <div class="imageGif">
+  <img src="images/img_03.gif" alt="gif image X and O">
+</div>
+
+	<div class="cosmic" style="--color: #23b1d8" data-text="T">
+		<span>T</span>
+	</div>
+	<div class="cosmic" style="--color: #dc5fe2" data-text="i">
+		<span>i</span>
+	</div>
+	<div class="cosmic" style="--color: #b733f9" data-text="c">
+		<span>c</span>
+	</div>
+	<div class="cosmic" style="--color: #a0de59" data-text="T">
+		<span>T</span>
+	</div>
+	<div class="cosmic" style="--color: #83d1ad" data-text="a">
+		<span>a</span>
+	</div>
+	<div class="cosmic" style="--color: #f7b500" data-text="c">
+		<span>c</span>
+	</div>
+  <div class="cosmic" style="--color:  #23b1d8" data-text="T">
+		<span>T</span>
+	</div>
+  <div class="cosmic" style="--color:  #dc5fe2" data-text="o">
+		<span>o</span>
+	</div>
+  <div class="cosmic" style="--color:#b733f9" data-text="e">
+		<span>e</span>
+	</div>
+  <div class="imageGif">
+  <img src="images/img_03.gif" alt="gif image X and O"> 
+</div>
+</div>
+
+
+<div class="game">
+  <div class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <div class="winning-message" id="winningMessage">
+    <div data-winning-message-text></div>
+    <button id="restartButton">Restart</button>
+  </div>
+  </div>
+
+  <footer>
+<h2>2025 © TicTacToe</h2>
+<h2>Privacy Policy</h2>
+<h2>Cookies Policy</h2>
+
+<!-- Audio elements for game sounds -->
+<audio id="placeSound" src="media/place.mp3"></audio>
+<audio id="winSound" src="media/winGame.mp3"></audio>
+<audio id="tieSound" src="media/tie.mp3"></audio>
+  </footer>
+</body>
+</html>
