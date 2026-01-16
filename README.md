@@ -4,7 +4,7 @@ A vibrant, interactive Tic Tac Toe game built to demonstrate DOM manipulation an
 This project features a colorful, high-energy UI and a fully functional game loop for two players.
 
 
-*  [Live Site URL:](xxx)
+*  [Live Site URL:](https://carlab09.github.io/game_TicTacToe/)
 
 #### 🚀 Features
 * Dynamic Gameplay: Interactive $3 \times 3$ grid where players take turns placing 'X' and 'O'.
